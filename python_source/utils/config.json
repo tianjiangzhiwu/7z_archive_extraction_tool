@@ -1,0 +1,6 @@
+{
+    "sevenzip_path": "D:\\7-Zip\\7z.exe",
+    "last_extract_path": "",
+    "passwords_file": "D:/Code/python_source/default_passwords.txt",
+    "auto_extract": true
+}

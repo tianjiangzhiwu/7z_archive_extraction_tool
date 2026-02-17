@@ -4,7 +4,9 @@ import tkinter as tk
 from tkinter import messagebox
 
 # 处理路径问题，确保可以从子目录导入
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
 
 from utils.config import config
 from core.simple_password_manager import SimplePasswordManager

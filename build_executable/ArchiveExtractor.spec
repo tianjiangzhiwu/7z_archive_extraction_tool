@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['main.py'],
-    pathex=[],
+    ['../python_source/main.py'],
+    pathex=['../python_source'],
     binaries=[],
-    datas=[('config.json', '.'), ('default_passwords.txt', '.')],
+    datas=[('../python_source/config.json', '.'), ('../python_source/default_passwords.txt', '.')],
     hiddenimports=['tkinterdnd2'],
     hookspath=[],
     hooksconfig={},

@@ -67,6 +67,6 @@ class Config:
             return os.path.dirname(sys.executable)
         else:
             # 开发环境
-            return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            return os.path.dirname(os.path.abspath(__file__))
     
 config = Config()
